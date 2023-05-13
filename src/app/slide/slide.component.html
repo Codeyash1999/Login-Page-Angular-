@@ -1,0 +1,20 @@
+<!-- Using If Directive To Set That Image Should Not Be Appear In Case When It Is 0 -->
+<div *ngIf="(images && images.length)>0" class="carousel-container">
+    
+    <!-- Adding Images With For Loop To Show All Images In One Tag -->
+    <img *ngFor="let image of images ; index as i" [src]="image.imageSrc" [alt]="image.imageAlt" [ngClass]="{'image-active':currentIndex===i}">
+
+    <!-- Making Radio Buttons But In A Different Way Using Css Class -->
+    <div *ngIf="indicators" class="carousel-dot-container">
+        <span *ngFor="let dot of images; let i = index" class="dot" [ngClass]="{'active' : currentIndex === i}" (click)="selectImage(i)">
+
+        </span>
+
+        <!-- Inserting Information On The Images Using Bootstrap  -->
+        <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-2"> {{images[currentIndex].heading}} </h5>
+            <p>{{images[currentIndex].description}} </p>
+          </div>
+    </div>
+<!-- Closing The Ending Diversion -->
+</div> 

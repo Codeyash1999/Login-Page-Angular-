@@ -1,0 +1,95 @@
+/* Importing Bootstrap Web Framework For Designing Of Web Pages */
+@import 'bootstrap/dist/css/bootstrap.css';
+
+/* Styling Of Our Login Form And Adjust It's Size & Height*/
+.login-form{
+    background-color: #ffffff;
+    width: 70%;
+    height: auto;
+    margin: 15% auto;
+    padding: 20px 20px;
+    font-weight: normal;
+
+}
+
+/* Styling Of Container Section */
+.container{
+    margin: 10% auto;
+    padding: 20px 10px;
+    
+}
+
+/* Styling Of Sign-Up */
+#sign-up{
+    background-color: black;
+    border-color: black;
+    border-radius: 0;
+}
+
+/* Styling Of Our Footer */
+.footer{
+    /* justify-content: space-around; */
+    /* display: flex; */
+    /* margin-top: 40px; */
+    /* margin-right: 80px; */
+     margin-top: 40px;
+}
+/* Explaining full-width Class Use */
+.full-width {
+    width: 100%;
+    background-color:white;
+  }
+
+
+  /* Using Dispch Class To Make Partition And Making Difference Between Both The Words Of Dipch */
+  .dipch {
+    position: absolute;
+    top: 8%;
+    left: 7%;
+  }
+    /* Making Text Accoridng To The Template Giveny */
+    .dip{
+      background-color: black;
+      color: white;
+      padding: 5px;
+    }
+
+  /* Making Page Syling Here */
+  .page{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  /* Styling A Course */
+  a{
+text-decoration: none;
+  }
+
+  /* Log-In Styling */
+  #log-in{
+    position: absolute;
+  }
+
+  /* login Styling */
+  #login{
+    margin-left: 50px;
+  }
+
+  /* Account Styling */
+  #account{
+    margin-left: 140px;
+  }
+
+  #email-pro{
+    background-color: white;
+  }
+  
+  .width{
+    width: 100%;
+  }
+  .heading{
+    margin: 15%;
+  }
+  .email-info{
+    font-size: 1rem;
+  }
